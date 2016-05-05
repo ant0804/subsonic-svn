@@ -1,22 +1,22 @@
 <!--
 # README.md
-# EugeneKay/LibreSonic
+# Libresonic/libresonic
 -->
-LibreSonic
+Libresonic
 ========
 
-What is LibreSonic?
+What is Libresonic?
 -----------------
 
-LibreSonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.
+Libresonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.
 
-LibreSonic is designed to handle very large music collections (hundreds of gigabytes). Although optimized for MP3 streaming, it works for any audio or video format that can stream over HTTP, for instance AAC and OGG. By using transcoder plug-ins, LibreSonic supports on-the-fly conversion and streaming of virtually any audio format, including WMA, FLAC, APE, Musepack, WavPack and Shorten.
+Libresonic is designed to handle very large music collections (hundreds of gigabytes). Although optimized for MP3 streaming, it works for any audio or video format that can stream over HTTP, for instance AAC and OGG. By using transcoder plug-ins, Libresonic supports on-the-fly conversion and streaming of virtually any audio format, including WMA, FLAC, APE, Musepack, WavPack and Shorten.
 
-If you have constrained bandwidth, you may set an upper limit for the bitrate of the music streams. LibreSonic will then automatically resample the music to a suitable bitrate.
+If you have constrained bandwidth, you may set an upper limit for the bitrate of the music streams. Libresonic will then automatically resample the music to a suitable bitrate.
 
-In addition to being a streaming media server, LibreSonic works very well as a local jukebox. The intuitive web interface, as well as search and index facilities, are optimized for efficient browsing through large media libraries. LibreSonic also comes with an integrated Podcast receiver, with many of the same features as you find in iTunes.
+In addition to being a streaming media server, Libresonic works very well as a local jukebox. The intuitive web interface, as well as search and index facilities, are optimized for efficient browsing through large media libraries. Libresonic also comes with an integrated Podcast receiver, with many of the same features as you find in iTunes.
 
-Based on Java technology, LibreSonic runs on most platforms, including Windows, Mac, Linux and Unix variants.
+Based on Java technology, Libresonic runs on most platforms, including Windows, Mac, Linux and Unix variants.
 
 
 History
@@ -32,7 +32,7 @@ Libresonic will strive to maintain compatibility and stability for Subsonic user
 License
 -------
 
-LibreSonic is free software and licensed under the [GNU General Public License version 3](http://www.gnu.org/copyleft/gpl.html). The code in this repository(and associated binaries) are free of any "license key" or other restrictions. If you wish to thank the maintainer of this repository, please consider a donation to the [Electronic Frontier Foundation](https://supporters.eff.org/donate).
+Libresonic is free software and licensed under the [GNU General Public License version 3](http://www.gnu.org/copyleft/gpl.html). The code in this repository(and associated binaries) are free of any "license key" or other restrictions. If you wish to thank the maintainer of this repository, please consider a donation to the [Electronic Frontier Foundation](https://supporters.eff.org/donate).
 
 The original Subsonic was released under the GPLv3 through version 5.3. Beginning with 6.0, the software is only available under a commercial license. There is a [Subsonic Premium](http://www.subsonic.org/pages/premium.jsp) package which offers extra functionality. Subsonic also offers RPM, Deb, Exe, and other pre-built packages that Libresonic does not.
 
@@ -40,4 +40,4 @@ The original Subsonic was released under the GPLv3 through version 5.3. Beginnin
 Usage
 -----
 
-A WAR compiled from the latest tag is provided on the [Releases page](https://github.com/Libresonic/libresonic/releases). This can be installed as a Tomcat or compatible webapp, and should "just work". Please see the [INSTALL document](https://github.com/EugeneKay/LibreSonic/blob/release/INSTALL.md) for instructions on building from source.
+A WAR compiled from the latest tag is provided on the [Releases page](https://github.com/Libresonic/libresonic/releases). This can be installed as a Tomcat or compatible webapp, and should "just work". Please see the [INSTALL document](https://github.com/Libresonic/libresonic/blob/release/INSTALL.md) for instructions on building from source.
