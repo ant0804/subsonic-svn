@@ -19,26 +19,25 @@ In addition to being a streaming media server, LibreSonic works very well as a l
 Based on Java technology, LibreSonic runs on most platforms, including Windows, Mac, Linux and Unix variants.
 
 
+History
+-----
+
+The original [Subsonic](http://www.subsonic.org/) is developed by [Sindre Mehus](mailto:sindre@activeobjects.no). Subsonic was open source through version 6.0-beta1, and closed-source from then onwards.
+
+Libresonic is maintained by [Eugene E. Kashpureff Jr](mailto:eugene@kashpureff.org). It originated as an unofficial("Kang") of Subsonic which id not contain the Licensing code checks present in the official builds. With the announcement of Subsonic's closed-source future, a decision was made to make a full fork and rebrand to Libresonic.
+
+Libresonic will strive to maintain compatibility and stability for Subsonic users, including a clean upgrade path. New features and refactoring are welcomed as a Pull Request on Github.
+
+
 License
 -------
 
-LibreSonic is free software and licensed under the [GNU General Public License version 3](http://www.gnu.org/copyleft/gpl.html).
+LibreSonic is free software and licensed under the [GNU General Public License version 3](http://www.gnu.org/copyleft/gpl.html). The code in this repository(and associated binaries) are free of any "license key" or other restrictions. If you wish to thank the maintainer of this repository, please consider a donation to the [Electronic Frontier Foundation](https://supporters.eff.org/donate).
 
-The [Upstream Project](http://www.subsonic.org/pages/premium.jsp) offers a "Subsonic Premium" license to enable all features of their distribution. The code in this repository and associated binaries do not require nor accept a license key.
+The original Subsonic was released under the GPLv3 through version 5.3. Beginning with 6.0, the software is only available under a commercial license. There is a [Subsonic Premium](http://www.subsonic.org/pages/premium.jsp) package which offers extra functionality. Subsonic also offers RPM, Deb, Exe, and other pre-built packages that Libresonic does not.
 
-If you wish to thank the maintainer of this repository, please consider a donation to the [Electronic Frontier Foundation](https://supporters.eff.org/donate).
-
-
-About
------
-
-Subsonic is developed by [Sindre Mehus](mailto:sindre@activeobjects.no). He lives in Oslo, Norway and works as a Java software consultant.
-
-This repository is maintained by [Eugene E. Kashpureff Jr](mailto:eugene@kashpureff.org) and provides an unofficial version of Subsonic which does not contain the Licensing code checks present in the official builds. In addition, some minor changes to the repository have been made to assist in the building of a fully-free version for your own use. Any downloads associated with this repo are provided without warranty or guarantee, and your use of such files is at your own risk.
-
-The official homepage of Subsonic can be found [here](http://www.subsonic.org/).
 
 Usage
 -----
 
-A WAR compiled from the latest tag is provided on the [Releases page](https://github.com/EugeneKay/LibreSonic/releases), which can be installed to a Tomcat webapps/ directory, and should "just work". Please see the [INSTALL document](https://github.com/EugeneKay/LibreSonic/blob/release/INSTALL.md) for instructions on building from source and installation.
+A WAR compiled from the latest tag is provided on the [Releases page](https://github.com/Libresonic/libresonic/releases). This can be installed as a Tomcat or compatible webapp, and should "just work". Please see the [INSTALL document](https://github.com/EugeneKay/LibreSonic/blob/release/INSTALL.md) for instructions on building from source.
