@@ -1,6 +1,6 @@
 <!--
 # INSTALL.md
-# EugeneKay/subsonic
+# Libresonic/libresonic
 -->
 Requirements
 ------------
@@ -21,8 +21,8 @@ $
 Now you can clone a copy of this repository and switch to the `release` branch if it is not automatically checked out:
 
 ```
-$ git clone git://github.com/EugeneKay/subsonic.git
-$ cd subsonic
+$ git clone git://github.com/Libresonic/libresonic.git
+$ cd libresonic
 $ git checkout release
 $
 ```
